@@ -86,7 +86,7 @@ requirements-dev.txt
 
 自动测试覆盖元数据解析和失败保护、审查定位与退出码、契约拒绝、生成测试实际运行，并将被测加法故意改错，确认测试能失败。每个 Skill 至少三个测试，具体记录见 [验收报告](VALIDATION.md)。
 
-GitHub Actions 在 Ubuntu 的 Python 3.11、3.12、3.13 上安装 pytest，运行结构校验和全套 unittest。本地检查通过不代表远程 CI 已通过；公开仓库首次推送后需查看 Actions 结果。Agent 指令质量仍需实际用户反馈，自动测试不证明所有模型的行为。
+GitHub Actions 在 Ubuntu 的 Python 3.11、3.12、3.13 上安装 pytest，运行结构校验和全套 unittest。首次远程 CI 的 Python 3.11、3.12、3.13 三组检查已全部通过：[运行记录](https://github.com/rommelida722-boop/awesome-ai-skills-zh/actions/runs/41190109838)。Agent 指令质量仍需实际用户反馈，自动测试不证明所有模型的行为。
 
 ## 常见问题
 

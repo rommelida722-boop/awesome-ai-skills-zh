@@ -34,3 +34,7 @@ Skill Creator 的 quick_validate.py 对四个 Skill 分别校验。Windows 下�
 后续需在新的 Codex 聊天中分别安装及不安装 Skill 重复相同任务，比较事实错误、遗漏、修改次数和任务成功率；尤其补测完整双语 README、需求模糊和冲突场景。当前不声称这些盲测已完成。
 
 GitHub Actions 的 Python 3.11—3.13 结果以仓库实际运行记录为准；此文只证明上述本地环境结果。
+
+## 发布后的远程验证
+
+公开仓库已创建并推送。GitHub Actions 在 Ubuntu 上的 Python 3.11、3.12、3.13 三组全部成功：[实际运行记录](https://github.com/rommelida722-boop/awesome-ai-skills-zh/actions/runs/41190109838)。这补充了跨版本脚本与自动测试证据，不等于跨模型行为验证。

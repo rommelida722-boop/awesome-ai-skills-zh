@@ -10,7 +10,7 @@
 
 当前共 31 个 unittest 测试通过：原有 25 项，新增两项生成器回归与四项实际 CLI 验收。生成的演示测试另有 4 个 pytest 测试项。
 
-GitHub Actions 已配置，远程未运行；Python 3.11 与 3.13 未在本机验证。尚未执行独立模型的自动触发或完整 Agent 行为评测。脚本能力及限制以各 Skill 参考说明为准。
+GitHub Actions 已实际运行，Ubuntu 上 Python 3.11、3.12、3.13 三组全部通过。运行记录：https://github.com/rommelida722-boop/awesome-ai-skills-zh/actions/runs/41190109838。尚未执行独立模型的自动触发或完整 Agent 行为评测。脚本能力及限制以各 Skill 参考说明为准。
 
 需求分析的三个 Agent 人工评测场景已提供，本轮执行了维护者定向试用，尚未通过独立模型盲测；本地自动测试只验证契约与导出行为。
 
