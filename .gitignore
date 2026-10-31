@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.venv/
+*.pem
+*.key
+README.generated.md
+examples/demo/test_generated.py
+.pytest_cache/
+requirements.generated.md

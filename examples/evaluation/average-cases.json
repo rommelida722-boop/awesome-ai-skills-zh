@@ -1,0 +1,54 @@
+{
+  "module": "average",
+  "function": "average",
+  "cases": [
+    {
+      "args": [
+        [
+          2,
+          4
+        ]
+      ],
+      "expected": 3.0
+    },
+    {
+      "args": [
+        [
+          0
+        ]
+      ],
+      "expected": 0.0
+    },
+    {
+      "args": [
+        [
+          -4,
+          2
+        ]
+      ],
+      "expected": -1.0
+    },
+    {
+      "args": [
+        []
+      ],
+      "raises": "ValueError"
+    },
+    {
+      "args": [
+        [
+          true
+        ]
+      ],
+      "raises": "TypeError"
+    },
+    {
+      "args": [
+        [
+          "2"
+        ]
+      ],
+      "raises": "TypeError"
+    }
+  ]
+}

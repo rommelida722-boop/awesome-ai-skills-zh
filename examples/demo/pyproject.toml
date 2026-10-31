@@ -1,0 +1,4 @@
+[project]
+name = "demo-calculator"
+version = "0.1.0"
+description = "用于演示的加法函数"
